@@ -26,4 +26,10 @@ class PageController extends Controller
         $movies = Movie::where('vote', '>=' , 9)->get();
         return view('film', compact('movies', 'title'));
     }
+
+    public function thisMovie($id){
+        $title = 'Dettaglio';
+        $movie = Movie::find($id);
+        return view('details', compact('movie', 'title'));
+    }
 }

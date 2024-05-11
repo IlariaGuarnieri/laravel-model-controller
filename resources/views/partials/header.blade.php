@@ -10,7 +10,7 @@
                 <a href="{{route('home')}}">Home</a>
               </li>
               <li class="nav-item m-1">
-                <a href="{{route('film')}}">Film in programma</a>
+                <a href="{{route('film')}}">Migliori film</a>
               </li>
           </div>
         </div>
